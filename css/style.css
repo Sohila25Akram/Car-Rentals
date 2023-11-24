@@ -37,6 +37,7 @@ html{
 #main{
     background: url('../Images/header-bg.jpg'),#04091D ;
     background-position: top center;
+    background-repeat: no-repeat;
 }
 .overlay{
     background-color: rgb(4, 8, 27, .6)
