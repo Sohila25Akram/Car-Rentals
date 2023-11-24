@@ -35,7 +35,7 @@ html{
     text-align: center;
 }
 #main{
-    background-image: url('../Images/header-bg.jpg');
+    background: url('../Images/header-bg.jpg'),#04091D ;
     background-position: top center;
 }
 .overlay{
