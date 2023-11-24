@@ -5,7 +5,8 @@
 }
 html{
     font-size: 16px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    scroll-behavior: smooth;
 }
 .container{
     width:100%;
@@ -120,9 +121,12 @@ nav ul li a{
     font-weight: 500;
     display: block;
 }
+nav ul li a.active{
+    color: #F9B700;
+}
 nav ul li a .a-letter{
     font-size: .85rem;
-    color: #fff;
+    color: inherit;
 }
 .main-description .leftcont{
     /*  */
