@@ -7,6 +7,7 @@ let two = document.querySelector(".two");
 let three = document.querySelector(".three");
 let menu = document.querySelector("header label input");
 let nav = document.querySelector("nav");
+let navItems = document.querySelectorAll("nav ul li a");
 
 
 slide_1.style.zIndex = "2";
@@ -14,6 +15,7 @@ slide_1.style.zIndex = "2";
 slide_1.style.opacity = "1" 
 
 one.classList.add('active');
+
 
 one.onclick = function () {
     two.classList.remove('active');
@@ -26,6 +28,7 @@ one.onclick = function () {
     slide_2.style.opacity = "0";
     slide_3.style.opacity = "0";
 };
+
 two.onclick = function () {
     one.classList.remove('active');
     three.classList.remove('active');
@@ -58,3 +61,11 @@ menu.addEventListener("change", function(){
     }
 });
 
+navItems.forEach((item) => {
+    item.addEventListener('click', function(){
+        navItems.forEach((otherItem)=>{
+            otherItem.classList.remove("active");
+        })
+        item.classList.add("active");
+    })
+})
