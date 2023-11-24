@@ -165,6 +165,7 @@ nav ul li a .a-letter{
     margin-bottom: 20px;
     font-size: 1.1rem;
     color:#7e8295 ;
+    background-color:#fff;
 }
 .main-description .rightcont form .selectfix{
     background-color: #fff;
@@ -182,6 +183,7 @@ nav ul li a .a-letter{
     outline: none;
     font-size: 1.1rem;
     color:#7e8295 ;
+    background-color:#fff;
 }
 .main-description .rightcont form .main-button{
     width:100%;
